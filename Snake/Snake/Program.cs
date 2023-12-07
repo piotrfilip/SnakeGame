@@ -122,9 +122,9 @@ class Program
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Red;
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2);
-        Console.WriteLine("Game Over");
+        Console.WriteLine("Gra skończona");
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
-        Console.WriteLine("Your Score is : " + score);
+        Console.WriteLine("Twój wynik to : " + score);
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
         Environment.Exit(0);
     }
