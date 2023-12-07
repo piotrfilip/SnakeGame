@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eMuo9pLl+PTVsZwk6BYq5lTYo6bSPi/B6vbK6ZFfVaO3k6vRSy6xNUSwASglaQC9V7fnkbsMnWFliqph3FJW6w==",
+  "dgSpecHash": "ssVFbGY7Z4KfKAv5lfnArHm34sGJAv+m5hvHWb+e53PGHVJGk6WzXMys1IEy91KMvYQA8sAX2VUmFc7y5N1lhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\piotr\\Desktop\\Snake\\Snake\\Snake\\Snake.csproj",
+  "projectFilePath": "C:\\Users\\piotr\\Source\\Repos\\SnakeGame\\Snake\\Snake\\Snake.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
