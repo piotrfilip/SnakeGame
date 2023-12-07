@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\piotr\\Desktop\\Snake\\Snake\\Snake\\Snake.csproj",
+      "projectUniqueName": "C:\\Users\\piotr\\Source\\Repos\\SnakeGame\\Snake\\Snake\\Snake.csproj",
       "projectName": "Snake",
-      "projectPath": "C:\\Users\\piotr\\Desktop\\Snake\\Snake\\Snake\\Snake.csproj",
+      "projectPath": "C:\\Users\\piotr\\Source\\Repos\\SnakeGame\\Snake\\Snake\\Snake.csproj",
       "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\piotr\\Desktop\\Snake\\Snake\\Snake\\obj\\",
+      "outputPath": "C:\\Users\\piotr\\Source\\Repos\\SnakeGame\\Snake\\Snake\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\piotr\\AppData\\Roaming\\NuGet\\NuGet.Config",

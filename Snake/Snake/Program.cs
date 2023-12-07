@@ -124,7 +124,7 @@ class Program
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2);
         Console.WriteLine("Game Over");
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
-        Console.WriteLine("Your Score is: " + score);
+        Console.WriteLine("Your Score is : " + score);
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
         Environment.Exit(0);
     }
@@ -135,5 +135,5 @@ public class Pixel
     public int xPos { get; set; }
     public int yPos { get; set; }
     public ConsoleColor schermKleur { get; set; }
-    public string karacter { get; set; }
+    public string character { get; set; }
 }
