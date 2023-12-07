@@ -27,7 +27,7 @@ class Program
         string obstacle = "*";
         int obstacleXpos = randomnummer.Next(1, screenwidth);
         int obstacleYpos = randomnummer.Next(1, screenheight);
-        int score = 0;
+        int wynik = 0;
 
         while (true)
         {
@@ -62,7 +62,7 @@ class Program
 
             //Display Score
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Score: " + score);
+            Console.WriteLine("Wynik: " + wynik);
 
             //Game Logic
             ConsoleKeyInfo info = Console.ReadKey();
@@ -94,7 +94,7 @@ class Program
             //Obstacle Collision
             if (hoofd.xPos == obstacleXpos && hoofd.yPos == obstacleYpos)
             {
-                score++;
+                wynik++;
                 obstacleXpos = randomnummer.Next(1, screenwidth);
                 obstacleYpos = randomnummer.Next(1, screenheight);
             }
@@ -102,14 +102,14 @@ class Program
             //Collision with Walls or itself
             if (hoofd.xPos == 0 || hoofd.xPos == screenwidth - 1 || hoofd.yPos == 0 || hoofd.yPos == screenheight - 1)
             {
-                GameOver(score, screenwidth, screenheight);
+                GameOver(wynik, screenwidth, screenheight);
             }
 
             for (int i = 0; i < teljePositie.Count(); i += 2)
             {
                 if (hoofd.xPos == teljePositie[i] && hoofd.yPos == teljePositie[i + 1])
                 {
-                    GameOver(score, screenwidth, screenheight);
+                    GameOver(wynik, screenwidth, screenheight);
                 }
             }
 
@@ -117,14 +117,14 @@ class Program
         }
     }
 
-    static void GameOver(int score, int screenwidth, int screenheight)
+    static void GameOver(int wynik, int screenwidth, int screenheight)
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Red;
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2);
         Console.WriteLine("Game Over");
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
-        Console.WriteLine("Your Score is: " + score);
+        Console.WriteLine("Twój wynik to: " + wynik);
         Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
         Environment.Exit(0);
     }
